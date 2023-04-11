@@ -17,7 +17,10 @@ main, header, section, aside, footer {
     animation-iteration-count: 5;
 }
 
-
+@keyframes icon {
+  from {color: rgb(155, 4, 4)}
+  to {color: rgb(184, 67, 67);}
+}
 
 ul {
     list-style-type: none;
