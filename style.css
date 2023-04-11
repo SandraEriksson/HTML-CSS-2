@@ -14,9 +14,10 @@ main, header, section, aside, footer {
     font-size: 25px;
     animation-name: icon;
     animation-duration: 5s;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
 }
 
+/*animation icon navbar*/
 @keyframes icon {
   from {color: rgb(155, 4, 4)}
   to {color: rgb(184, 67, 67);}
@@ -76,17 +77,7 @@ main {
 }
 
 
-  /*footer*/
-.footer {
-    background-color: white;
-    height: 180px;
-    color: black;
-}
 
-.footer-content {
-    text-align: center;
-    padding-top: 20px;
-}
 
 
 
@@ -117,8 +108,8 @@ input[type=text], select, textarea {
   }
 
     .button:active {
-      background-color: #3e8e41;
-      box-shadow: 0 5px #666;
+      background-color: #9c1a09;
+      box-shadow: 0 5px #66626260;
       transform: translateY(4px);
   }
   
@@ -132,7 +123,17 @@ input[type=text], select, textarea {
     color: black;
   }
 
+  /*footer*/
+  .footer {
+    background-color: white;
+    height: 180px;
+    color: black;
+}
 
+.footer-content {
+    text-align: center;
+    padding-top: 20px;
+}
 
     /*Screen optimized*/
 @media screen and (min-width: 640px){
